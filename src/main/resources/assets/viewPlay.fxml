@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!-- 800x500 d'escenari + 60 de HUD (noms, vides i projectils) -->
+<AnchorPane fx:id="anchor" minHeight="560.0" minWidth="800.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.client.CtrlPlay">
+   <children>
+      <Canvas fx:id="canvas" height="560.0" width="800.0" />
+   </children>
+</AnchorPane>
